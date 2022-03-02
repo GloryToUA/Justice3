@@ -1,4 +1,4 @@
-This tool bombards a lot of addresses at Russia.
+This tool bombards a lot of addresses related to fuel industry at Russia.
 
 Recomendations:
 Highly recommended to use VPN. Perfectly inside Russia. Change your IP frequently.
