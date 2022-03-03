@@ -14,6 +14,34 @@ DESTS=(
 "http://188.126.62.6:123/"
 "http://195.218.193.141:25/"
 #END www.dme.ru Domodedovo Airport 
+
+#FSB RTMP - internal communication system
+"https://213.24.76.25:8080/"
+
+#SIP Airships communication system
+"https://195.218.193.189:5060/"
+
+#Russian army communication system
+"https://ca.vks.rosguard.gov.ru/"
+
+#Smth inside russian army 
+"https://95.173.148.51:53/"
+
+#Moscow light control system
+"https://109.252.233.150:51/"
+
+#Russian media
+"https://tass.ru/"
+"https://vz.ru/"
+"https://www.vedomosti.ru/"
+"https://www.vesti.ru"
+"https://www.sobyanin.ru/"
+"https://www.gov.spb.ru/"
+
+#Railroads
+"https://rzd.ru/"
+
+#Generic
 "https://ddos-guard.net/ru"
 "https://stormwall.pro/"
 "https://qrator.net/ru/"
@@ -103,7 +131,6 @@ DESTS=(
 #Russian banking system
 "https://spvb.ru/"
 "https://www.moex.com/"
-"https://rzd.ru/"
 "https://www.gazprombank.ru/" 
 "https://www.POCHTABANK.ru/"
 "https://cbr.ru/"
