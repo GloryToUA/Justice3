@@ -41,7 +41,7 @@ DESTS=(
 #Railroads
 "https://rzd.ru/"
 
-#Generic
+#Russian generic
 "https://ddos-guard.net/ru"
 "https://stormwall.pro/"
 "https://qrator.net/ru/"
@@ -129,6 +129,10 @@ DESTS=(
 
 
 #Russian banking system
+#BEGIN "Mir" banking websites
+"https://185.170.2.232/"
+"https://185.170.2.231/"
+#END "Mir" banking websites
 "https://spvb.ru/"
 "https://www.moex.com/"
 "https://www.gazprombank.ru/" 
