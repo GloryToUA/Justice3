@@ -6,7 +6,6 @@ CONNECTIONSPERTARGET=15
 DESTS=(
 
 #Russian addresses
-"https://pobeda.aero/"
 #BEGIN www.dme.ru Domodedovo Airport
 "https://195.218.193.151/"
 "http://195.218.193.151/"
@@ -14,6 +13,11 @@ DESTS=(
 "http://188.126.62.6:123/"
 "http://195.218.193.141:25/"
 #END www.dme.ru Domodedovo Airport 
+
+#Russian communication systems
+"http://www.megafon.ru:80/"
+"http://moskva.beeline.ru:80/"
+"https://moskva.mts.ru:443/"
 
 #FSB RTMP - internal communication system
 "https://213.24.76.25:8080/"
@@ -31,12 +35,14 @@ DESTS=(
 "https://109.252.233.150:51/"
 
 #Russian media
+"https://pobeda.aero/"
 "https://tass.ru/"
 "https://vz.ru/"
 "https://www.vedomosti.ru/"
 "https://www.vesti.ru"
 "https://www.sobyanin.ru/"
 "https://www.gov.spb.ru/"
+"https://www.1tv.ru/live/"
 
 #Railroads
 "https://rzd.ru/"
