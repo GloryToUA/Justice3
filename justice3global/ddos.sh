@@ -1,9 +1,13 @@
 #!/bin/bash -x
 
 TIME="60m"
-CONNECTIONSPERTARGET=15
+CONNECTIONSPERTARGET=14
 
 DESTS=(
+#BEGIN    FAKE ADDRESSES OF UKRAINIAN HUMANITARIAN ASSISTANCE!!!
+"http://savelife.net.ua/"
+"http://savelife.pw"
+#END
 
 #Russian addresses
 #BEGIN www.dme.ru Domodedovo Airport
@@ -44,16 +48,58 @@ DESTS=(
 "https://www.gov.spb.ru/"
 "https://www.1tv.ru/live/"
 
-#Railroads
+#Russian Airlines
+"https://www.VNUKOVO.ru/"
+"https://svo.aero/"
+"https://www.dme.ru/"
+"https://www.aeroportdomodedovo.ru/"
+"https://www.zia.aero/"
+"https://pulkovoairport.ru/"
+"https://airport-rzhevka.ru/"
+"https://rov.aero/"
+"https://krr.aero/"
+"https://www.gdz.aero/"
+"https://simferopol-airport.ru/"
+"https://svx.aero/"
+
+#Russian Railroads
 "https://rzd.ru/"
 
 #Russian generic
+"https://www.amurobl.ru/"
+"https://dvinaland.ru/"
+"https://astrobl.ru/"
+"https://belregion.ru/"
+"https://www.bryanskobl.ru/"
+"https://avo.ru/"
+"https://volgoduma.ru/"
+"https://www.govvrn.ru/"
+"https://www.ivanovoobl.ru/"
+"https://irkobl.ru/"
+"https://gov39.ru/"
+"https://pre.admoblkaluga.ru/"
+"https://ako.ru/"
+"https://kirovreg.ru/"
+"https://kurganobl.ru/"
+"https://kursk.ru/"
+"https://lenobl.ru/"
+"https://www.49gov.ru/"
+"https://mosreg.ru/"
+"https://gov-murman.ru/"
+"https://www.government-nnov.ru/"
+"https://www.novreg.ru/"
+"https://www.nso.ru/"
+"https://omskportal.ru/"
+"https://www.donland.ru/"
+"https://pskov.ru/"
+"https://saratov.gov.ru/"
+"https://YOOMONEY.ru/"
+"https://constructor.gazprom.ru/"
 "https://ddos-guard.net/ru"
 "https://stormwall.pro/"
 "https://qrator.net/ru/"
 "https://solidwall.ru/"
-"www.nspk.ru"
-"https://qiwi.com"
+"https://www.nspk.ru/"
 "https://www.TINKOFF.ru"
 "https://MIRONLINE.ru"
 "http://favt.gov.ru/"
@@ -139,6 +185,11 @@ DESTS=(
 "https://185.170.2.232/"
 "https://185.170.2.231/"
 #END "Mir" banking websites
+"https://qiwi.com/"
+"https://www.rosbank.ru/"
+"https://www.unicreditbank.ru/"
+"https://abr.ru/"
+"https://www.vbrr.ru/"
 "https://spvb.ru/"
 "https://www.moex.com/"
 "https://www.gazprombank.ru/" 
