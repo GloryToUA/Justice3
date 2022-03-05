@@ -6,7 +6,8 @@ CONNECTIONSPERTARGET=14
 DESTS=(
 #BEGIN    FAKE ADDRESSES OF UKRAINIAN HUMANITARIAN ASSISTANCE!!!
 "http://savelife.net.ua/"
-"http://savelife.pw"
+"http://savelife.pw/"
+"http://ukraine-war.pw/"
 #END
 
 #Russian addresses
@@ -141,15 +142,12 @@ DESTS=(
 "https://www.metalloinvest.com/"
 "https://www.severstal.com/"
 "https://www.sibur.ru/"
-"https://nlmk.com/"
 "https://www.evraz.com/ru/"
-"https://www.tatneft.ru/"
 "https://www.surgutneftegas.ru/"
 "https://www.nornickel.com/"
 "https://magnit.ru/"
 "https://lukoil.ru"
 "http://duma.gov.ru/"
-"https://gazprom.ru/"
 "http://president-sovet.ru/"
 "https://sovetnational.ru/"
 "https://www.gosuslugi.ru/ru/"
@@ -259,6 +257,18 @@ DESTS=(
 
 
 #Russian Fuel Companies
+"https://gazprom.ru/"
+"https://transneft.ru/"
+"https://tektorg.ru/"
+"https://rosneft.com/"
+"https://b2b.sibur.ru/"
+"https://onlinecontract.ru/"
+"https://eurochemgroup.com/"
+"https://uralchem.com/"
+"https://nlmk.com/"
+"https://www.tatneft.ru/"
+"https://acron.ru/"
+"https://aaa-srt-apps.lukoil.com/"
 "https://srt-ns1.srv.lukoil.com/" 
 "https://srt-ns2.srv.lukoil.com/" 
 "https://ns2.srv.lukoil.com/" 
@@ -602,8 +612,8 @@ DESTS=(
 "https://absolutbank.by/"
 
 
-
-
+#LNR addresses
+"https://gtrklnr.com/"
 
 #generic
 "https://v2.premise.com/"
