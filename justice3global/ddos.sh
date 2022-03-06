@@ -65,6 +65,16 @@ DESTS=(
 
 #Russian Railroads
 "https://rzd.ru/"
+"https://193.104.87.251/"
+"https://194.84.25.50/"
+"https://193.104.87.248/"
+
+#Russian DNS
+"https://178.248.233.32:443/"
+"http://178.248.236.20:53/UDP"
+"http://91.217.21.1:53/UDP"
+"http://193.232.146.1:53/UDP"
+"http://91.217.20.1/UDP"
 
 #Russian generic
 "https://www.amurobl.ru/"
@@ -179,10 +189,25 @@ DESTS=(
 
 
 #Russian banking system
+#Crossbanking payment system 
+"https://178.248.237.238/"
 #BEGIN "Mir" banking websites
 "https://185.170.2.232/"
 "https://185.170.2.231/"
 #END "Mir" banking websites
+"https://enter.unicredit.ru/"
+"https://unicreditgroup.ru/"
+"https://chbrr.crimea.com/"
+"https://miranda-media.ru/"
+"https://my.bank-hlynov.ru/"
+"https://mtu.ru/"
+"https://bank-hlynov.ru/"
+"https://link.centrinvest.ru/"
+"https:///"
+"https:///"
+"https:///"
+"https:///"
+"https:///"
 "https://qiwi.com/"
 "https://www.rosbank.ru/"
 "https://www.unicreditbank.ru/"
@@ -614,6 +639,9 @@ DESTS=(
 
 #LNR addresses
 "https://gtrklnr.com/"
+
+#DNR addresses
+"https://mer.govdnr.ru/"
 
 #generic
 "https://v2.premise.com/"
