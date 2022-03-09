@@ -24,6 +24,14 @@ DESTS=(
 "http://moskva.beeline.ru:80/"
 "https://moskva.mts.ru:443/"
 
+#Russian social media
+#BEGIN ok.ru
+"https://ok.ru/"
+"https://5.61.23.11/"
+"https://217.20.155.13/"
+"https://217.20.147.1/"
+#END ok.ru
+
 #FSB RTMP - internal communication system
 "https://213.24.76.25:8080/"
 
@@ -40,6 +48,11 @@ DESTS=(
 "https://109.252.233.150:51/"
 
 #Russian media
+"https://www.veseloeradio.ru/"
+"https://tvzvezda.ru/"
+"https://sputnik.com/"
+"https://sputniknews.com/"
+"https://www.kommersant.ru/"
 "https://pobeda.aero/"
 "https://tass.ru/"
 "https://vz.ru/"
@@ -48,6 +61,7 @@ DESTS=(
 "https://www.sobyanin.ru/"
 "https://www.gov.spb.ru/"
 "https://www.1tv.ru/live/"
+"https://lenteplogaz.ru/"
 
 #Russian Airlines
 "https://www.VNUKOVO.ru/"
@@ -68,6 +82,9 @@ DESTS=(
 "https://193.104.87.251/"
 "https://194.84.25.50/"
 "https://193.104.87.248/"
+"https://217.175.155.100:53/UDP"
+"https://217.175.155.12:53/UDP"
+"https://217.175.140.71:53/UDP"
 
 #Russian DNS
 "https://178.248.233.32:443/"
@@ -77,6 +94,21 @@ DESTS=(
 "http://91.217.20.1/UDP"
 
 #Russian generic
+"https://kwork.ru/"
+"https://mironline.ru/"
+"https://dnronline.su/"
+"https://smart.swnn.ru/"
+"https://www.vtbcapital-pr.ru/"
+"https://region-am.ru/"
+"https://www.ingosinvest.ru/"
+"https://goszakaz.ru/"
+"https://star-pro.ru/"
+"http://ati.su/"
+"https://region.ru/"
+"https://monopoly.ru/"
+"https://ul.su/"
+"http://gruzovozkin.pro"
+"https://www.volgograd.ru/"
 "https://www.amurobl.ru/"
 "https://dvinaland.ru/"
 "https://astrobl.ru/"
@@ -96,6 +128,13 @@ DESTS=(
 "https://lenobl.ru/"
 "https://www.49gov.ru/"
 "https://mosreg.ru/"
+"https://orel-region.ru/"
+"https://midural.ru/"
+"https://tula.ru/"
+"https://ulgov.ru/"
+"https://cheladmin.ru/"
+"https://krd.ru/"
+"https://stavregion.ru/"
 "https://gov-murman.ru/"
 "https://www.government-nnov.ru/"
 "https://www.novreg.ru/"
@@ -195,6 +234,8 @@ DESTS=(
 "https://185.170.2.232/"
 "https://185.170.2.231/"
 #END "Mir" banking websites
+"https://sberfn.ru/"
+"https://sber-am.ru/"
 "https://enter.unicredit.ru/"
 "https://unicreditgroup.ru/"
 "https://chbrr.crimea.com/"
