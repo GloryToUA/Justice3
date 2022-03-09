@@ -93,6 +93,10 @@ DESTS=(
 "http://193.232.146.1:53/UDP"
 "http://91.217.20.1/UDP"
 
+#Russian digital forces
+"https://norussians.xyz"
+"https://stopnazi.xyz"
+
 #Russian generic
 "https://kwork.ru/"
 "https://mironline.ru/"
@@ -150,6 +154,9 @@ DESTS=(
 "https://qrator.net/ru/"
 "https://solidwall.ru/"
 "https://www.nspk.ru/"
+"https://server.nspk.ru/"
+"https://dev.nspk.ru"
+"https://sip.nspk.ru"
 "https://www.TINKOFF.ru"
 "https://MIRONLINE.ru"
 "http://favt.gov.ru/"
@@ -234,6 +241,11 @@ DESTS=(
 "https://185.170.2.232/"
 "https://185.170.2.231/"
 #END "Mir" banking websites
+"https://acs.vendorcert.mirconnect.ru/"
+"https://ds1.mirconnect.ru/"
+"https://ds2.mirconnect.ru/"
+"https://uat-ds1.mirconnect.ru/"
+"https://uat-ds2.mirconnect.ru/"
 "https://sberfn.ru/"
 "https://sber-am.ru/"
 "https://enter.unicredit.ru/"
