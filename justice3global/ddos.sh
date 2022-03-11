@@ -44,13 +44,37 @@ DESTS=(
 #Smth inside russian army 
 "https://95.173.148.51:53/"
 
+#Russian infracstructure
+"https://www.russianhighways.ru/"
 #Moscow light control system
 "https://109.252.233.150:51/"
+#BEGIN Refrigiration control system
+"https://89.175.200.174:7443/boss/"
+"https://188.19.14.230/boss/"
+"https://95.143.1.180/boss/"
+"https://95.53.194.42/boss/"
+"https://62.249.154.10:55443/boss/"
+"http://91.204.178.247:8181/cgi-bin/xweb500.cgi?res=1"
+#END Refrigiration control system
+#BEGIN russian tec company
+"https://rostec.ru/" 
+"https://scloud.rostec.ru/login" 
+"https://vcs.rostec.ru/" 
+"https://lk.rostec.ru/Account/LogIn?ReturnUrl=%2F"
+"http://ias.rostec.ru/"
+"https://smi.rostec.ru/user"
+"http://v1.rostec.ru/" 
+"http://v2.rostec.ru/"
+"https://vks3.rostec.ru/"
+#END russian tec company
 
 #Russian media
 "https://www.veseloeradio.ru/"
 "https://tvzvezda.ru/"
+"https://ukraina.ru/"
 "https://sputnik.com/"
+"https://ria.ru/"
+"https://gazeta.ru/"
 "https://sputniknews.com/"
 "https://www.kommersant.ru/"
 "https://pobeda.aero/"
@@ -61,6 +85,7 @@ DESTS=(
 "https://www.sobyanin.ru/"
 "https://www.gov.spb.ru/"
 "https://www.1tv.ru/live/"
+"http://kremlin.ru/"
 "https://lenteplogaz.ru/"
 
 #Russian Airlines
@@ -108,6 +133,8 @@ DESTS=(
 "https://goszakaz.ru/"
 "https://star-pro.ru/"
 "http://ati.su/"
+#Pirate copy of netflix
+"https://9mar.zetflixsss.online/"
 "https://region.ru/"
 "https://monopoly.ru/"
 "https://ul.su/"
@@ -165,8 +192,6 @@ DESTS=(
 "https://cloud.rkn.gov.ru/"
 "https://pwd.wto.economy.gov.ru/"
 "https://bezformata.com/"
-"https://ria.ru/"
-"https://gazeta.ru/"
 "https://kp.ru/"
 "https://riafan.ru/"
 "https://pikabu.ru/"
@@ -187,7 +212,6 @@ DESTS=(
 "https://www.nalog.gov.ru/"
 "https://mil.ru/"
 "http://government.ru/"
-"http://kremlin.ru/"
 "https://www.mos.ru/uslugi/"
 "https://www.uralkali.com/ru/"
 "https://www.polymetalinternational.com/ru/"
@@ -719,4 +743,5 @@ do
     done
 	sleep 3550s
 done
+
 
