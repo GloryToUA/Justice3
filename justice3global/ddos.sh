@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 TIME="60m"
-CONNECTIONSPERTARGET=14
+CONNECTIONSPERTARGET=13
 
 DESTS=(
 #BEGIN    FAKE ADDRESSES OF UKRAINIAN HUMANITARIAN ASSISTANCE!!!
@@ -67,6 +67,13 @@ DESTS=(
 "http://v2.rostec.ru/"
 "https://vks3.rostec.ru/"
 #END russian tec company
+#BEGIN russian digital signature services
+"https://esia.gosuslugi.ru"
+"https://iecp.ru/ep/ep-verification"
+"https://e-trust.gosuslugi.ru"
+"https://gu.spb.ru"
+"https://uc-osnovanie.ru/"
+#END russian digital signature services
 
 #Russian media
 "https://www.veseloeradio.ru/"
@@ -121,6 +128,14 @@ DESTS=(
 #Russian digital forces
 "https://norussians.xyz"
 "https://stopnazi.xyz"
+
+#Russian food companies
+"https://eda.yandex.ru/"
+"https://www.delivery-club.ru/"
+"https://m-food.ru/"
+"https://sbermarket.ru"
+"https://chibbis.ru/"
+"https://lavka.yandex/"
 
 #Russian generic
 "https://kwork.ru/"
@@ -280,11 +295,6 @@ DESTS=(
 "https://mtu.ru/"
 "https://bank-hlynov.ru/"
 "https://link.centrinvest.ru/"
-"https:///"
-"https:///"
-"https:///"
-"https:///"
-"https:///"
 "https://qiwi.com/"
 "https://www.rosbank.ru/"
 "https://www.unicreditbank.ru/"
@@ -301,9 +311,16 @@ DESTS=(
 "https://www.raiffeisen.ru"
 "https://rsb.ru/"
 "https://alfabank.ru/"
+"https://alfabank.ru/everyday/online/"
 "https://www.vtb.ru/" 
+"https://online.vtb.ru/"
 "https://www.sberbank.ru"
+"https://online.sberbank.ru/CSAFront/index.do#/"
+"https://online.gpb.ru/login"
 "https://www.RNCB.ru/" 
+"https://online.rshb.ru"
+"https://online.sovcombank.ru/"
+"https://online.mkb.ru/"
 "https://omk.ru/" 
 "https://www.eurosib.ru/"
 "https://sber.ru/"
