@@ -76,6 +76,8 @@ DESTS=(
 #END russian digital signature services
 
 #Russian media
+"https://rg.ru/"
+"https://aif.ru/"
 "https://www.veseloeradio.ru/"
 "https://tvzvezda.ru/"
 "https://ukraina.ru/"
@@ -136,6 +138,33 @@ DESTS=(
 "https://sbermarket.ru"
 "https://chibbis.ru/"
 "https://lavka.yandex/"
+
+#Russian cinemas
+"https://mos-kino.ru/"
+"https://cinemastar.ru/"
+"https://kinoteatr.ru/"
+"https://karofilm.ru/"
+"https://kinosfera-imax.ru/"
+"https://kinomax.ru/"
+"https://romanov-cinema.ru/"
+"https://pioner-cinema.ru/"
+"https://premierzal.ru/"
+"https://www.mirage.ru/"
+
+#Russian drug stores
+"https://www.eapteka.ru"
+"https://www.asna.ru/"
+"https://366.ru"
+"https://stolichki.ru"
+"https://aptekamos.ru"
+"https://vseapteki.ru"
+"https://www.rigla.ru"
+"https://planetazdorovo.ru"
+"https://samson-pharma.ru"
+"https://zdorov.ru"
+"https://apteka.ru"
+
+
 
 #Russian generic
 "https://kwork.ru/"
@@ -338,7 +367,8 @@ DESTS=(
 "https://acs6.sbrf.ru"
 "https://acs7.sbrf.ru"
 "https://acs8.sbrf.ru"
-
+"https://koronapay.com/"
+"https://api.koronapay.com/"
 
 
 
@@ -372,6 +402,19 @@ DESTS=(
 "https://abcobmen.com/" 
 
 
+
+#Russian auction systems
+"https://etpgpb.ru"
+"https://api.etpgpb.ru"
+"https://etp.gpb.ru/"
+"https://passport.etpgpb.ru"
+"https://gos.etpgpb.ru"
+"https://inter-rao.etpgpb.ru"
+"https://rosnedra.etpgpb.ru"
+"https://gpn.etpgpb.ru"
+"https://geh.etpgpb.ru"
+"https://trade.etpgpb.ru"
+"https://gb.etpgpb.ru"
 
 
 
