@@ -1,7 +1,7 @@
 #!/bin/bash -x
 
 TIME="60m"
-CONNECTIONSPERTARGET=13
+CONNECTIONSPERTARGET=12
 
 DESTS=(
 #BEGIN    FAKE ADDRESSES OF UKRAINIAN HUMANITARIAN ASSISTANCE!!!
@@ -68,26 +68,108 @@ DESTS=(
 "https://vks3.rostec.ru/"
 #END russian tec company
 #BEGIN russian digital signature services
-"https://esia.gosuslugi.ru"
-"https://iecp.ru/ep/ep-verification"
-"https://e-trust.gosuslugi.ru"
-"https://gu.spb.ru"
-"https://uc-osnovanie.ru/"
+#IP of "https://esia.gosuslugi.ru" below
+"https://213.59.254.8/"
+#IP of "https://rostelecom.ru/" below
+"https://109.207.14.3/"
+#IPs of "https://e-trust.gosuslugi.ru" below
+"https://185.194.34.142/"
+"https://87.226.162.78/"
+#IP of "https://www.company.rt.ru/" below
+"https://213.59.197.65/"
+#IP of "https://uc-osnovanie.ru/" below
+"https://185.71.67.237/"
+#IPs of "http://www.belinfonalog.ru" below
+"http://82.151.111.186/"
+"http://82.151.111.187/"
+#IPs of "http://www.astralnalog.ru" below
+"http://91.239.5.18/"
+"http://91.239.5.75/"
+"http://82.146.56.128/"
+#IPs of "https://kk.bank/UdTs" below
+"https://185.58.223.206/"
+"https://178.248.238.15/"
+#IP of "http://www.ucpir.ru" below
+"http://92.53.98.191/"
+#IP of "http://www.e-portal.ru" below
+"http://109.207.1.97/"
+#IPs of "http://izhtender.ru" below
+"http://37.230.115.34/"
+"http://213.159.213.33/"
+#IPs of "http://www.icentr.ru" below
+"http://185.26.122.69/"
+#IPs of "http://rsbis.ru/elektronnaya-podpis" below
+"http://89.239.185.186/"
+#IPs of "http://www.stv-it.ru" below
+"http://178.210.71.24/"
+#IPs of "http://www.kt-69.ru" below
+"http://217.107.219.57/"
+"http://45.130.41.31/"
+#IPs of "http://www.24ecp.ru" below
+"http://95.172.129.51/"
+#IPs of "http://kraskript.com" below
+"http://80.255.150.171/"
+#IPs of "http://www.y-center.ru" below
+"http://89.237.29.234/"
+"http://89.237.29.235/"
+"http://89.237.29.238/"
+#IPs of "http://www.rcarus.ru" below
+"http://185.101.204.52/"
+#IPs of "http://ca.gisca.ru" below
+"http://95.161.154.197/"
+
+"https://iecp.ru/ep/ep-verification/"
+"https://gu.spb.ru/"
 #END russian digital signature services
 
+
+
+#Russian government sites
+#IPs of "https://credinform.ru" below
+"https://188.124.43.50/"
+#IPs of "https://company.myseldon.com/" below
+"https://185.179.199.48/"
+"https://185.179.199.49/"
+"https://185.179.199.85/"
+"https://185.179.199.71/"
+"https://185.179.199.84/"
+#IPs of "http://egrul-base.ru/" below
+"http://77.221.130.32/"
+#IPs of "https://datalegal.ru/" below
+"https://185.178.46.130/"
+"https://92.53.96.181/"
+
+
+
+
 #Russian media
-"https://rg.ru/"
 "https://aif.ru/"
 "https://www.veseloeradio.ru/"
 "https://tvzvezda.ru/"
 "https://ukraina.ru/"
 "https://sputnik.com/"
-"https://ria.ru/"
+#IP of "https://ria.ru/" below
+"https://195.93.246.165/"
+#IP of "https://topcor.ru" below
+"https://5.8.79.230/"
+#IP of "https://lenta.ru/" below
+"https://81.19.72.39/"
+#IP of "https://kp.ru/" below
+"https://95.163.95.9/"
+#IP of "https://iz.ru/" below
+"https://80.93.184.78/"
+#IP of "https://www.gazeta.ru/" below
+"https://81.19.72.3/"
+#IP of "https://tass.ru/" below
+"https://82.202.190.72/"
+#IP of "https://rg.ru/" below
+"https://194.190.37.226/"
+"https://194.190.37.228/"
+"https://194.190.37.234/"
 "https://gazeta.ru/"
 "https://sputniknews.com/"
 "https://www.kommersant.ru/"
 "https://pobeda.aero/"
-"https://tass.ru/"
 "https://vz.ru/"
 "https://www.vedomosti.ru/"
 "https://www.vesti.ru"
@@ -96,6 +178,22 @@ DESTS=(
 "https://www.1tv.ru/live/"
 "http://kremlin.ru/"
 "https://lenteplogaz.ru/"
+#IP of "https://www.chechnya.online/ru/" below
+"https://213.189.196.127/"
+#IP of "http://vaynahavia.com/" below
+"http://31.31.196.207/"
+#IP of "https://grozmer.ru/" below
+"https://31.31.196.24/"
+#IP of "https://gudermes.net/" below
+"https://87.236.16.168/"
+#IP of "http://www.meriya-urus-martana.ru/" below
+"http://31.31.198.175/"
+#IP of "http://vesti95.ru" below
+"http://91.106.207.34/"
+#IP of "https://www.minfinchr.ru/" below
+"https://79.174.66.135/"
+#IP of "http://pgu.gov-chr.ru/" below
+"http://91.215.221.46/"
 
 #Russian Airlines
 "https://www.VNUKOVO.ru/"
@@ -171,6 +269,7 @@ DESTS=(
 "https://mironline.ru/"
 "https://dnronline.su/"
 "https://smart.swnn.ru/"
+"https://bmpvsu.ru/mapppd.php"
 "https://www.vtbcapital-pr.ru/"
 "https://region-am.ru/"
 "https://www.ingosinvest.ru/"
@@ -236,15 +335,12 @@ DESTS=(
 "https://cloud.rkn.gov.ru/"
 "https://pwd.wto.economy.gov.ru/"
 "https://bezformata.com/"
-"https://kp.ru/"
 "https://riafan.ru/"
 "https://pikabu.ru/"
 "https://kommersant.ru/"
 "https://mk.ru/"
 "https://yaplakal.com/"
 "https://rbc.ru/"
-"https://lenta.ru/"
-"https://lenta.ru/"
 "http://vesti.ru/"
 "https://proverki.gov.ru/"
 "https://stroi.gov.ru/"
@@ -297,6 +393,10 @@ DESTS=(
 "194.67.7.1:53"
 "194.54.14.187:53"
 "194.54.14.186:53"
+"https://spark-interfax.ru/"
+"https://sbis.ru/"
+"https://www.kartoteka.ru/"
+"https://casebook.ru/"
 
 
 
@@ -314,6 +414,11 @@ DESTS=(
 "https://ds2.mirconnect.ru/"
 "https://uat-ds1.mirconnect.ru/"
 "https://uat-ds2.mirconnect.ru/"
+"https://bki-okb.ru/"
+"https://www.banki.ru/"
+"https://kontur.ru/"
+"https://www.nbki.ru/"
+"https://www.equifax.ru/"
 "https://sberfn.ru/"
 "https://sber-am.ru/"
 "https://enter.unicredit.ru/"
